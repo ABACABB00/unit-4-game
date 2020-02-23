@@ -1,7 +1,29 @@
-#colorcrystal {
-    position: relative;
-    float: left;
-   
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #bbb;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    margin-top: 50px;
+    padding-top: 85px;
+    background-color: cyan;
+    height: 600px;
+}
+
+footer {
+    background-color: #bbb;
+    padding: 20px;
+    margin: 10px;
+    padding-top: 30px;
+    margin-top: 68px;
 }
 
 .totalscore {
