@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystals Collector!</title>
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" herf="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <!-- title -->
+   <header>
+       <h1 class="text-center">Crystals Collector | The Game </h1>
+   </header>
+   <!-- container -->
+    <div class="container">
+        <!-- how to play button toggle -->
+       <div id="btn1" class="col-md-12 text-center">
+            <button class="btn btn-primary">
+                <p>How to play !</p>
+            </button>
+            <p class="gameinfo">You will be given a random number at the start of the game.
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            The value of each crystal is hidden from you until you click on it.
+            Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+        <!-- match the game -->
+        <div class="matches">
+            <h3>Match the number: <span id="matchingscores"></span></h3>
+        </div>
+        <!-- points in total of game -->
+        <div class="points">
+            <h3>Wins: <span id="wins"></span></h3>
+            <h3>Lose: <span id="lose"></span></h3>
+        </div>
+        <div id="colorcrystal" class="col-md-12 text-center">
+
+        </div>
+        <div class="clearfix">
+
+        </div>
+        <!-- points in total of round -->
+        <div class="scoretotal">
+            <h3>Your total score is:</h3>
+            <div id="scores"></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;Copyright 2020 Felpe Cantu</p>
+    </footer>
+</body>
+<!-- javascript link -->
+<script src="assets/javascript/game.js"></script>
+<!-- jquery cdn -->
+<script
+  src="http://code.jquery.com/jquery-3.4.1.js"></script>
+</html>
+
