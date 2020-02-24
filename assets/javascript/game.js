@@ -8,6 +8,8 @@ window.onload = function() {
 	var userscore = 0;
 
 	// random number generator for match the number
+
+
 	var matchingScore = Math.floor((Math.random() * 101) + 19);
 
 	// button for how to play
@@ -17,9 +19,10 @@ window.onload = function() {
 	});
 	
 	// text for match the number
-	$("#matchingscores").text(matchingScore);
+	$('#matchingscores').text(matchingScore);
 
-	// 
+	// restart match and crystalCount
+	
 	function restart() {
 		 // Number should be between 19 - 120
 		matchingScore = Math.floor((Math.random() * 101) + 19);
@@ -29,8 +32,9 @@ window.onload = function() {
     	// Random number has to be between 1 - 12
 		crystalCount = (Math.floor(Math.random() * 11) + 1);
 		userscore = 0;
-    $("#scores").text(userscore);
+		$("#scores").text(userscore);		
 	}
+	
 	// random generator for crystals
     for (var i = 0; i < crystals.length; i++) {
     	var crystalCount = Math.floor(Math.random() * 11) + 1;

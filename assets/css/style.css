@@ -11,12 +11,17 @@ header {
     margin: 10px;
 }
 
+button, p {
+    padding-top: 9px;
+}
+
 .container {
     margin-top: 50px;
     padding-top: 85px;
     background-color: cyan;
     height: 600px;
 }
+
 
 footer {
     background-color: #bbb;
@@ -25,6 +30,7 @@ footer {
     padding-top: 30px;
     margin-top: 68px;
 }
+
 
 .totalscore {
     clear: both;
